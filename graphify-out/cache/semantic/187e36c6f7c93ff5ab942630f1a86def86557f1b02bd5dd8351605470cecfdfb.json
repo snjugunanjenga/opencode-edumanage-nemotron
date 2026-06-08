@@ -1,0 +1,1 @@
+{"nodes": [{"id": "api_reference_trpc", "label": "tRPC API Reference", "file_type": "document", "source_file": "docs/API_REFERENCE.md"}], "edges": [{"source": "api_reference_trpc", "target": "role_permissions_matrix", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "docs/API_REFERENCE.md"}], "hyperedges": []}

@@ -1,0 +1,1 @@
+{"nodes": [], "edges": [{"source": "agents_nextjs_expert", "target": "api_reference_trpc", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": ".claude/agents/nextjs-expert.md"}], "hyperedges": []}

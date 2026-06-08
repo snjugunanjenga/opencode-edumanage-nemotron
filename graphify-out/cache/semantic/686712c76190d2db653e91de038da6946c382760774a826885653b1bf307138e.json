@@ -1,0 +1,1 @@
+{"nodes": [{"id": "architecture_edumanage", "label": "System Architecture", "file_type": "document", "source_file": "docs/ARCHITECTURE.md"}], "edges": [{"source": "architecture_edumanage", "target": "rls_isolation", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "docs/ARCHITECTURE.md"}], "hyperedges": []}

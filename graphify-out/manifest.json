@@ -1,0 +1,17 @@
+{
+  ".opencode/opencode.json": {
+    "mtime": 1780938110.4412491,
+    "ast_hash": "e5f74d14a81702b55bdf53b33ec991d7",
+    "semantic_hash": "e5f74d14a81702b55bdf53b33ec991d7"
+  },
+  ".opencode/package.json": {
+    "mtime": 1780938121.1632493,
+    "ast_hash": "c9442b1dfba4cd254e8dc712cf2d3da8",
+    "semantic_hash": "c9442b1dfba4cd254e8dc712cf2d3da8"
+  },
+  ".opencode/plugins/graphify.js": {
+    "mtime": 1780938077.6562486,
+    "ast_hash": "64ccd3c03dbfe0980b6095766f5c4e52",
+    "semantic_hash": "64ccd3c03dbfe0980b6095766f5c4e52"
+  }
+}

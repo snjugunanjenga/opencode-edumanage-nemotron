@@ -1,0 +1,218 @@
+{
+  "communities": {
+    "0": [
+      "acceptance_sprint_006",
+      "blueprint_sprint_004",
+      "blueprint_sprint_005",
+      "blueprint_sprint_006",
+      "blueprint_sprint_008",
+      "handoff_prompt_sprint_006",
+      "inngest_functions",
+      "prisma_schema",
+      "requirements_sprint_006",
+      "trpc_routers"
+    ],
+    "1": [
+      "agents_clerk_auth",
+      "agents_devops",
+      "agents_software_architect",
+      "clerk_org_tenant",
+      "inngest_jobs_master",
+      "sprint_002_auth",
+      "sprint_003_academic"
+    ],
+    "2": [
+      "acceptance_sprint_007",
+      "blueprint_sprint_007",
+      "handoff_prompt_sprint_007",
+      "requirements_sprint_007"
+    ],
+    "3": [
+      "acceptance_sprint_004",
+      "handoff_prompt_sprint_004",
+      "requirements_sprint_004"
+    ],
+    "4": [
+      "acceptance_sprint_005",
+      "handoff_prompt_sprint_005",
+      "requirements_sprint_005"
+    ],
+    "5": [
+      "acceptance_sprint_008",
+      "handoff_prompt_sprint_008",
+      "requirements_sprint_008"
+    ],
+    "6": [
+      "agents_nextjs_expert",
+      "api_reference_trpc",
+      "role_permissions_matrix"
+    ],
+    "7": [
+      "architecture_edumanage",
+      "database_schema_prisma",
+      "rls_isolation"
+    ],
+    "8": [
+      "opencode_opencode",
+      "opencode_opencode_plugin",
+      "opencode_opencode_schema"
+    ],
+    "9": [
+      "opencode_package",
+      "opencode_package_dependencies",
+      "opencode_package_dependencies_opencode_ai_plugin"
+    ],
+    "10": [
+      "decisions_log",
+      "sprint_004_financial"
+    ],
+    "11": [
+      "handoff_prompt_sprint_003",
+      "requirements_sprint_003"
+    ],
+    "12": [
+      "plugins_graphify",
+      "plugins_graphify_graphifyplugin"
+    ],
+    "13": [
+      "agents_react_frontend"
+    ],
+    "14": [
+      "context_edumanage"
+    ],
+    "15": [
+      "prd_edumanage"
+    ]
+  },
+  "cohesion": {
+    "0": 0.26666666666666666,
+    "1": 0.2857142857142857,
+    "2": 0.5,
+    "3": 0.6666666666666666,
+    "4": 0.6666666666666666,
+    "5": 0.6666666666666666,
+    "6": 0.6666666666666666,
+    "7": 0.6666666666666666,
+    "8": 0.6666666666666666,
+    "9": 0.6666666666666666,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0
+  },
+  "gods": [
+    {
+      "id": "prisma_schema",
+      "label": "Prisma Schema",
+      "degree": 5
+    },
+    {
+      "id": "blueprint_sprint_004",
+      "label": "Blueprint \u2014 Sprint 004: Financial Management & Mpesa",
+      "degree": 4
+    },
+    {
+      "id": "blueprint_sprint_005",
+      "label": "Blueprint \u2014 Sprint 005: Communications, Calendar & Procurement",
+      "degree": 4
+    },
+    {
+      "id": "blueprint_sprint_007",
+      "label": "Blueprint \u2014 Sprint 007: AI Automation Layer",
+      "degree": 4
+    },
+    {
+      "id": "handoff_prompt_sprint_004",
+      "label": "Builder Handoff \u2014 Sprint 004: Financial Management & Mpesa",
+      "degree": 3
+    },
+    {
+      "id": "handoff_prompt_sprint_005",
+      "label": "Builder Handoff \u2014 Sprint 005: Communications, Calendar & Procurement",
+      "degree": 3
+    },
+    {
+      "id": "handoff_prompt_sprint_006",
+      "label": "Builder Handoff \u2014 Sprint 006: Library & Resources",
+      "degree": 3
+    },
+    {
+      "id": "handoff_prompt_sprint_007",
+      "label": "Builder Handoff \u2014 Sprint 007: AI Automation Layer",
+      "degree": 3
+    },
+    {
+      "id": "blueprint_sprint_008",
+      "label": "Blueprint \u2014 Sprint 008: Boarding, Transport, Nursing, Kitchen & HR",
+      "degree": 3
+    },
+    {
+      "id": "handoff_prompt_sprint_008",
+      "label": "Builder Handoff \u2014 Sprint 008: Boarding, Transport, Nursing, Kitchen & HR",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Blueprint \u2014 Sprint 006: Library & Resources",
+      "target": "Prisma Schema",
+      "source_files": [
+        "planning/sprints/006-library-resources/blueprint.md",
+        "prisma/schema.prisma"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "implements",
+      "why": "connects across different repos/directories; peripheral node `Blueprint \u2014 Sprint 006: Library & Resources` unexpectedly reaches hub `Prisma Schema`"
+    },
+    {
+      "source": "Blueprint \u2014 Sprint 007: AI Automation Layer",
+      "target": "Prisma Schema",
+      "source_files": [
+        "planning/sprints/007-ai-automation/blueprint.md",
+        "prisma/schema.prisma"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "implements",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Software Architect Agent",
+      "target": "Sprint 002: Auth & Multi-Tenancy",
+      "source_files": [
+        "AGENTS.md",
+        "planning/sprints/002-auth-multitenancy/requirements.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "Software Architect Agent",
+      "target": "Sprint 003: Academic Core",
+      "source_files": [
+        "AGENTS.md",
+        "planning/sprints/003-academic-core/requirements.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "Next.js Expert Agent",
+      "target": "tRPC API Reference",
+      "source_files": [
+        "AGENTS.md",
+        "docs/API_REFERENCE.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    }
+  ],
+  "tokens": {
+    "input": 123888,
+    "output": 8159
+  }
+}

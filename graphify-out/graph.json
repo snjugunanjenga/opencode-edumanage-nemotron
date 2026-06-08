@@ -1,0 +1,986 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "opencode.json",
+      "file_type": "code",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "opencode.json",
+      "id": "opencode_opencode"
+    },
+    {
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "$schema",
+      "id": "opencode_opencode_schema"
+    },
+    {
+      "label": "plugin",
+      "file_type": "code",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "plugin",
+      "id": "opencode_opencode_plugin"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": ".opencode/package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": "package.json",
+      "id": "opencode_package"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": ".opencode/package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": "dependencies",
+      "id": "opencode_package_dependencies"
+    },
+    {
+      "label": "@opencode-ai/plugin",
+      "file_type": "code",
+      "source_file": ".opencode/package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": "@opencode-ai/plugin",
+      "id": "opencode_package_dependencies_opencode_ai_plugin"
+    },
+    {
+      "label": "graphify.js",
+      "file_type": "code",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 12,
+      "norm_label": "graphify.js",
+      "id": "plugins_graphify"
+    },
+    {
+      "label": "GraphifyPlugin()",
+      "file_type": "code",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 12,
+      "norm_label": "graphifyplugin()",
+      "id": "plugins_graphify_graphifyplugin"
+    },
+    {
+      "label": "Software Architect Agent",
+      "file_type": "code",
+      "source_file": "AGENTS.md",
+      "source_location": "Software Architect section",
+      "author": "EduManage Architect",
+      "community": 1,
+      "norm_label": "software architect agent",
+      "id": "agents_software_architect"
+    },
+    {
+      "label": "Next.js Expert Agent",
+      "file_type": "code",
+      "source_file": "AGENTS.md",
+      "source_location": "Next.js Expert section",
+      "community": 6,
+      "norm_label": "next.js expert agent",
+      "id": "agents_nextjs_expert"
+    },
+    {
+      "label": "React Frontend Agent",
+      "file_type": "code",
+      "source_file": "AGENTS.md",
+      "source_location": "React Frontend section",
+      "community": 13,
+      "norm_label": "react frontend agent",
+      "id": "agents_react_frontend"
+    },
+    {
+      "label": "Clerk Auth Agent",
+      "file_type": "code",
+      "source_file": "AGENTS.md",
+      "source_location": "Clerk Auth section",
+      "community": 1,
+      "norm_label": "clerk auth agent",
+      "id": "agents_clerk_auth"
+    },
+    {
+      "label": "DevOps Agent",
+      "file_type": "code",
+      "source_file": "AGENTS.md",
+      "source_location": "DevOps section",
+      "community": 1,
+      "norm_label": "devops agent",
+      "id": "agents_devops"
+    },
+    {
+      "label": "EduManage Context",
+      "file_type": "document",
+      "source_file": "CONTEXT.md",
+      "community": 14,
+      "norm_label": "edumanage context",
+      "id": "context_edumanage"
+    },
+    {
+      "label": "EduManage PRD",
+      "file_type": "document",
+      "source_file": "docs/PRD.md",
+      "community": 15,
+      "norm_label": "edumanage prd",
+      "id": "prd_edumanage"
+    },
+    {
+      "label": "System Architecture",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "community": 7,
+      "norm_label": "system architecture",
+      "id": "architecture_edumanage"
+    },
+    {
+      "label": "Prisma Database Schema",
+      "file_type": "code",
+      "source_file": "docs/DATABASE_SCHEMA.md",
+      "community": 7,
+      "norm_label": "prisma database schema",
+      "id": "database_schema_prisma"
+    },
+    {
+      "label": "tRPC API Reference",
+      "file_type": "document",
+      "source_file": "docs/API_REFERENCE.md",
+      "community": 6,
+      "norm_label": "trpc api reference",
+      "id": "api_reference_trpc"
+    },
+    {
+      "label": "Inngest Jobs Master List",
+      "file_type": "document",
+      "source_file": "docs/INNGEST_JOBS.md",
+      "community": 1,
+      "norm_label": "inngest jobs master list",
+      "id": "inngest_jobs_master"
+    },
+    {
+      "label": "Role Permissions Matrix",
+      "file_type": "document",
+      "source_file": "docs/ROLE_PERMISSIONS.md",
+      "community": 6,
+      "norm_label": "role permissions matrix",
+      "id": "role_permissions_matrix"
+    },
+    {
+      "label": "Architectural Decisions Log",
+      "file_type": "document",
+      "source_file": "planning/DECISIONS.md",
+      "community": 10,
+      "norm_label": "architectural decisions log",
+      "id": "decisions_log"
+    },
+    {
+      "label": "Sprint 002: Auth & Multi-Tenancy",
+      "file_type": "document",
+      "source_file": "planning/sprints/002-auth-multitenancy/requirements.md",
+      "community": 1,
+      "norm_label": "sprint 002: auth & multi-tenancy",
+      "id": "sprint_002_auth"
+    },
+    {
+      "label": "Sprint 003: Academic Core",
+      "file_type": "document",
+      "source_file": "planning/sprints/003-academic-core/requirements.md",
+      "community": 1,
+      "norm_label": "sprint 003: academic core",
+      "id": "sprint_003_academic"
+    },
+    {
+      "label": "Sprint 004: Financial & Mpesa",
+      "file_type": "document",
+      "source_file": "planning/sprints/SPRINT_ROADMAP.md",
+      "community": 10,
+      "norm_label": "sprint 004: financial & mpesa",
+      "id": "sprint_004_financial"
+    },
+    {
+      "label": "Clerk Organization as Tenant",
+      "file_type": "concept",
+      "source_file": "planning/DECISIONS.md",
+      "source_location": "DEC-002",
+      "community": 1,
+      "norm_label": "clerk organization as tenant",
+      "id": "clerk_org_tenant"
+    },
+    {
+      "label": "Postgres Row-Level Security",
+      "file_type": "concept",
+      "source_file": "planning/DECISIONS.md",
+      "source_location": "DEC-001",
+      "community": 7,
+      "norm_label": "postgres row-level security",
+      "id": "rls_isolation"
+    },
+    {
+      "label": "Builder Handoff \u2014 Sprint 003: Academic Core",
+      "file_type": "document",
+      "source_file": "planning/sprints/003-academic-core/handoff-prompt.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 11,
+      "norm_label": "builder handoff \u2014 sprint 003: academic core",
+      "id": "handoff_prompt_sprint_003"
+    },
+    {
+      "label": "Requirements \u2014 Sprint 003: Academic Core",
+      "file_type": "document",
+      "source_file": "planning/sprints/003-academic-core/requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 11,
+      "norm_label": "requirements \u2014 sprint 003: academic core",
+      "id": "requirements_sprint_003"
+    },
+    {
+      "label": "Acceptance Criteria \u2014 Sprint 004: Financial Management & Mpesa",
+      "file_type": "document",
+      "source_file": "planning/sprints/004-financial-mpesa/acceptance.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 3,
+      "norm_label": "acceptance criteria \u2014 sprint 004: financial management & mpesa",
+      "id": "acceptance_sprint_004"
+    },
+    {
+      "label": "Blueprint \u2014 Sprint 004: Financial Management & Mpesa",
+      "file_type": "document",
+      "source_file": "planning/sprints/004-financial-mpesa/blueprint.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "blueprint \u2014 sprint 004: financial management & mpesa",
+      "id": "blueprint_sprint_004"
+    },
+    {
+      "label": "Builder Handoff \u2014 Sprint 004: Financial Management & Mpesa",
+      "file_type": "document",
+      "source_file": "planning/sprints/004-financial-mpesa/handoff-prompt.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 3,
+      "norm_label": "builder handoff \u2014 sprint 004: financial management & mpesa",
+      "id": "handoff_prompt_sprint_004"
+    },
+    {
+      "label": "Requirements \u2014 Sprint 004: Financial Management & Mpesa",
+      "file_type": "document",
+      "source_file": "planning/sprints/004-financial-mpesa/requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 3,
+      "norm_label": "requirements \u2014 sprint 004: financial management & mpesa",
+      "id": "requirements_sprint_004"
+    },
+    {
+      "label": "Acceptance Criteria \u2014 Sprint 005: Communications, Calendar & Procurement",
+      "file_type": "document",
+      "source_file": "planning/sprints/005-communications-calendar/acceptance.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "acceptance criteria \u2014 sprint 005: communications, calendar & procurement",
+      "id": "acceptance_sprint_005"
+    },
+    {
+      "label": "Blueprint \u2014 Sprint 005: Communications, Calendar & Procurement",
+      "file_type": "document",
+      "source_file": "planning/sprints/005-communications-calendar/blueprint.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "blueprint \u2014 sprint 005: communications, calendar & procurement",
+      "id": "blueprint_sprint_005"
+    },
+    {
+      "label": "Builder Handoff \u2014 Sprint 005: Communications, Calendar & Procurement",
+      "file_type": "document",
+      "source_file": "planning/sprints/005-communications-calendar/handoff-prompt.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "builder handoff \u2014 sprint 005: communications, calendar & procurement",
+      "id": "handoff_prompt_sprint_005"
+    },
+    {
+      "label": "Requirements \u2014 Sprint 005: Communications, Calendar & Procurement",
+      "file_type": "document",
+      "source_file": "planning/sprints/005-communications-calendar/requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "requirements \u2014 sprint 005: communications, calendar & procurement",
+      "id": "requirements_sprint_005"
+    },
+    {
+      "label": "Acceptance Criteria \u2014 Sprint 006: Library & Resources",
+      "file_type": "document",
+      "source_file": "planning/sprints/006-library-resources/acceptance.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "acceptance criteria \u2014 sprint 006: library & resources",
+      "id": "acceptance_sprint_006"
+    },
+    {
+      "label": "Blueprint \u2014 Sprint 006: Library & Resources",
+      "file_type": "document",
+      "source_file": "planning/sprints/006-library-resources/blueprint.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "blueprint \u2014 sprint 006: library & resources",
+      "id": "blueprint_sprint_006"
+    },
+    {
+      "label": "Builder Handoff \u2014 Sprint 006: Library & Resources",
+      "file_type": "document",
+      "source_file": "planning/sprints/006-library-resources/handoff-prompt.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "builder handoff \u2014 sprint 006: library & resources",
+      "id": "handoff_prompt_sprint_006"
+    },
+    {
+      "label": "Requirements \u2014 Sprint 006: Library & Resources",
+      "file_type": "document",
+      "source_file": "planning/sprints/006-library-resources/requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "requirements \u2014 sprint 006: library & resources",
+      "id": "requirements_sprint_006"
+    },
+    {
+      "label": "Acceptance Criteria \u2014 Sprint 007: AI Automation Layer",
+      "file_type": "document",
+      "source_file": "planning/sprints/007-ai-automation/acceptance.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "acceptance criteria \u2014 sprint 007: ai automation layer",
+      "id": "acceptance_sprint_007"
+    },
+    {
+      "label": "Blueprint \u2014 Sprint 007: AI Automation Layer",
+      "file_type": "document",
+      "source_file": "planning/sprints/007-ai-automation/blueprint.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "blueprint \u2014 sprint 007: ai automation layer",
+      "id": "blueprint_sprint_007"
+    },
+    {
+      "label": "Builder Handoff \u2014 Sprint 007: AI Automation Layer",
+      "file_type": "document",
+      "source_file": "planning/sprints/007-ai-automation/handoff-prompt.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "builder handoff \u2014 sprint 007: ai automation layer",
+      "id": "handoff_prompt_sprint_007"
+    },
+    {
+      "label": "Requirements \u2014 Sprint 007: AI Automation Layer",
+      "file_type": "document",
+      "source_file": "planning/sprints/007-ai-automation/requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "requirements \u2014 sprint 007: ai automation layer",
+      "id": "requirements_sprint_007"
+    },
+    {
+      "label": "Acceptance Criteria \u2014 Sprint 008: Boarding, Transport, Nursing, Kitchen & HR",
+      "file_type": "document",
+      "source_file": "planning/sprints/008-boarding-transport-support/acceptance.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "acceptance criteria \u2014 sprint 008: boarding, transport, nursing, kitchen & hr",
+      "id": "acceptance_sprint_008"
+    },
+    {
+      "label": "Blueprint \u2014 Sprint 008: Boarding, Transport, Nursing, Kitchen & HR",
+      "file_type": "document",
+      "source_file": "planning/sprints/008-boarding-transport-support/blueprint.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "blueprint \u2014 sprint 008: boarding, transport, nursing, kitchen & hr",
+      "id": "blueprint_sprint_008"
+    },
+    {
+      "label": "Builder Handoff \u2014 Sprint 008: Boarding, Transport, Nursing, Kitchen & HR",
+      "file_type": "document",
+      "source_file": "planning/sprints/008-boarding-transport-support/handoff-prompt.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "builder handoff \u2014 sprint 008: boarding, transport, nursing, kitchen & hr",
+      "id": "handoff_prompt_sprint_008"
+    },
+    {
+      "label": "Requirements \u2014 Sprint 008: Boarding, Transport, Nursing, Kitchen & HR",
+      "file_type": "document",
+      "source_file": "planning/sprints/008-boarding-transport-support/requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "requirements \u2014 sprint 008: boarding, transport, nursing, kitchen & hr",
+      "id": "requirements_sprint_008"
+    },
+    {
+      "label": "Prisma Schema",
+      "file_type": "code",
+      "source_file": "prisma/schema.prisma",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "prisma schema",
+      "id": "prisma_schema"
+    },
+    {
+      "label": "Inngest Functions",
+      "file_type": "code",
+      "source_file": "inngest/functions/",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "inngest functions",
+      "id": "inngest_functions"
+    },
+    {
+      "label": "tRPC Routers",
+      "file_type": "code",
+      "source_file": "server/routers/",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "trpc routers",
+      "id": "trpc_routers"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_plugin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_schema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "opencode_package",
+      "target": "opencode_package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "opencode_package_dependencies",
+      "target": "opencode_package_dependencies_opencode_ai_plugin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "plugins_graphify",
+      "target": "plugins_graphify_graphifyplugin"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source": "agents_software_architect",
+      "target": "sprint_002_auth"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source": "agents_software_architect",
+      "target": "sprint_003_academic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".claude/agents/nextjs-expert.md",
+      "source": "agents_nextjs_expert",
+      "target": "api_reference_trpc"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".claude/agents/clerk-auth.md",
+      "source": "agents_clerk_auth",
+      "target": "clerk_org_tenant"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".claude/agents/devops.md",
+      "source": "agents_devops",
+      "target": "inngest_jobs_master"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/ARCHITECTURE.md",
+      "source": "architecture_edumanage",
+      "target": "rls_isolation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/DATABASE_SCHEMA.md",
+      "source": "database_schema_prisma",
+      "target": "rls_isolation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/API_REFERENCE.md",
+      "source": "api_reference_trpc",
+      "target": "role_permissions_matrix"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/003-academic-core/blueprint.md",
+      "source": "sprint_003_academic",
+      "target": "inngest_jobs_master"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "planning/sprints/SPRINT_ROADMAP.md",
+      "source": "sprint_004_financial",
+      "target": "decisions_log"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/002-auth-multitenancy/blueprint.md",
+      "source": "sprint_002_auth",
+      "target": "clerk_org_tenant"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/003-academic-core/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_003",
+      "target": "requirements_sprint_003"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/004-financial-mpesa/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_004",
+      "target": "acceptance_sprint_004"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/004-financial-mpesa/blueprint.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "blueprint_sprint_004",
+      "target": "inngest_functions"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/004-financial-mpesa/blueprint.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "blueprint_sprint_004",
+      "target": "prisma_schema"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/004-financial-mpesa/blueprint.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "blueprint_sprint_004",
+      "target": "trpc_routers"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/004-financial-mpesa/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_004",
+      "target": "blueprint_sprint_004"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/004-financial-mpesa/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_004",
+      "target": "requirements_sprint_004"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/005-communications-calendar/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_005",
+      "target": "acceptance_sprint_005"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/005-communications-calendar/blueprint.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "blueprint_sprint_005",
+      "target": "inngest_functions"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/005-communications-calendar/blueprint.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "blueprint_sprint_005",
+      "target": "prisma_schema"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/005-communications-calendar/blueprint.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "blueprint_sprint_005",
+      "target": "trpc_routers"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/005-communications-calendar/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_005",
+      "target": "blueprint_sprint_005"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/005-communications-calendar/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_005",
+      "target": "requirements_sprint_005"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/006-library-resources/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_006",
+      "target": "acceptance_sprint_006"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/006-library-resources/blueprint.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "blueprint_sprint_006",
+      "target": "prisma_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/006-library-resources/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_006",
+      "target": "blueprint_sprint_006"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/006-library-resources/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_006",
+      "target": "requirements_sprint_006"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/007-ai-automation/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_007",
+      "target": "acceptance_sprint_007"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/007-ai-automation/blueprint.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "blueprint_sprint_007",
+      "target": "inngest_functions"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/007-ai-automation/blueprint.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "blueprint_sprint_007",
+      "target": "prisma_schema"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/007-ai-automation/blueprint.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "blueprint_sprint_007",
+      "target": "trpc_routers"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/007-ai-automation/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_007",
+      "target": "blueprint_sprint_007"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/007-ai-automation/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_007",
+      "target": "requirements_sprint_007"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/008-boarding-transport-support/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_008",
+      "target": "acceptance_sprint_008"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/008-boarding-transport-support/blueprint.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "blueprint_sprint_008",
+      "target": "prisma_schema"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/008-boarding-transport-support/blueprint.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "blueprint_sprint_008",
+      "target": "trpc_routers"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/008-boarding-transport-support/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_008",
+      "target": "blueprint_sprint_008"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "planning/sprints/008-boarding-transport-support/handoff-prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "handoff_prompt_sprint_008",
+      "target": "requirements_sprint_008"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "a281f6eaf0e0d6a59dd37c43edb57fbfd3c96740"
+}
